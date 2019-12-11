@@ -13,7 +13,7 @@ class NobrokerScraper(scrapy.Spider):
         spans = parent_div.css('h3 span')
         area = spans[0].root.text.replace(",", "")
         unit_type = spans[1].root.text.strip()
-        return { "area": area, "unit_type": unit_type }
+        return { "value": area, "unit_type": unit_type }
 
     def extract_deposit(self, parent_div):
         deposit_amount = parent_div.css('meta[itemprop = "value"]')[0].xpath("@content").get()
