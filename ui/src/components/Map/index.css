@@ -1,0 +1,22 @@
+.map-container {
+  position: relative;
+  z-index: 1;
+}
+
+.marker {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(3, 252, 44, 0.5);
+  border-radius: 10px;
+}
+
+.marker:hover {
+  background-color: rgba(3, 252, 44, 1);
+}
+
+.selected-marker {
+  width: 15px;
+  height: 15px;
+  background-color: rgba(3, 252, 44, 1);
+  border-radius: 15px;
+}

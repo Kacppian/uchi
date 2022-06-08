@@ -1,0 +1,13 @@
+.viewer-container {
+  position: absolute;
+  z-index: 2;
+  left: 30px;
+  top: 0px;
+  bottom: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 400px;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+}
